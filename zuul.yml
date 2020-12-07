@@ -9,9 +9,6 @@ spring:
   application:
       name: zuul
 
-server:
-  port: 9501     #zuul服务端口
-
 eureka:
   client: # zuul客户端到Eureka注册, 这样 feign的客户端就能找到zuul服务了
     service-url:
